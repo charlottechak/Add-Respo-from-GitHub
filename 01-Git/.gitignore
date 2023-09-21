@@ -1,0 +1,35 @@
+#my personal
+personal.txt
+
+
+
+# Very basic .gitignore for intro web dev 
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+
+# IDE and Editor folders
+.idea/
+.vscode/
+
+
+# Package lock files
+yarn.lock
+package-lock.json
+
+
+# Node modules
+node_modules/
+
+# Build directory
+/dist
+/build
+
+# Environment variables
+.env
+
+
+# Logs
+*.log
