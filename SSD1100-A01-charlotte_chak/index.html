@@ -4,65 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charlotte Chak - A02</title>
+    <!-- link to the external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- write an embedded style here -->
 </head>
 <body>
-    <header>
-    <h1>Charlotte Chak</h1>
-    <img src="images/charlotte-image.jpg" alt="charlotte image">
-    </header>
+    <header><h1>About Me</h1></header>
+        <main>
+            <article>
+                <header>
+                    <img src="images/charlotte-image.jpg" alt="charlotte image">
+                    <h2>Charlotte Chak</h2>
+                </header>
+                <section>
+                <h3>Mission</h3>
+                    <p>I enrolled in <a href="https://www.bcit.ca/programs/software-systems-developer-certificate-full-time-7120cert/">SSD program</a> because I like programming! I also enjoy learning database management and the skill of debugging. Beside I would like to explore the HTML, CSS and JavaScript skill. </p>
+                    
+                    <p>I hope I can build an e-commerce web application and build my own database after learning SSD. My goal of this year is to absorb as much as programing knowledge as possible and apply to my next job. </p>
 
-    <main>
-    <article>
-    <h1>About Me</h1>
 
-    <p>I enrolled in <a href="https://www.bcit.ca/programs/software-systems-developer-certificate-full-time-7120cert/">SSD program</a> because I like programming!</p>
-    <p>I hope I can build an e-commerce web application and build my own database after learning SSD. </p>
+                    <!-- Adding an HTML table, including thead and tbody structural tags as well as column headings. -->
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>Technology</th>
+                            <th>Comfort level</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td class = "extreme-comfort">10</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>Git</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>C#</td>
+                            <td class = "minor-discomfort">5</td>
+                        </tr>
+                        </tbody>
+                    </table>               
+                </section>
+                
+                <!-- Adding Hobbies (heading and list) in an aside element.-->
+                <aside>
+                    <h2>Hobbies</h2> 
+                        <ul>
+                            <li>Blogging</li>
+                            <li>Reading</li>
+                            <li>Hiking</li>
+                            <li>Gardening</li>
+                            <li>Nail Art</li>
+                        </ul>
+                </aside>
+            </article>
+    </main>
+    <footer>&copy;2023 Charlotte Chak</footer>
 
-    <!-- Adding an HTML table, including thead and tbody structural tags as well as column headings. -->
-    <table>
-        <thead>
-          <tr>
-            <th>Technology</th>
-            <th>Comfort level</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Smartphone</td>
-            <td>8</td>
-          </tr>
-          <tr>
-            <td>Laptop</td>
-            <td>9</td>
-          </tr>
-          <tr>
-            <td>Wireless headphones</td>
-            <td>7</td>
-          </tr>
-          <tr>
-            <td>Smartwatch</td>
-            <td>6</td>
-          </tr>
-          <tr>
-            <td>Virtual reality headset</td>
-            <td>5</td>
-          </tr>
-        </tbody>
-      </table>
-</article>
-
-    <!-- Adding Hobbies (heading and list) in an aside element.-->
-<aside>
-   <h2>Hobbies</h2> 
-    <ul>
-        <li>Blogging</li>
-        <li>Reading</li>
-        <li>Hiking</li>
-        <li>Gardening</li>
-        <li>Nail Art</li>
-    </ul>
-</aside>
-<footer>
-
-</footer></main></body>
+</body>
 </html>
